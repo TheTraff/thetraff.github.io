@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+
+<div class="col-sm-12 col-md-12 col-lg-12">
+<h2>Blog</h2>
+{% for post in site.posts %}
+		<div class="row">
+			<div class=" info-block col-sm-6 col-md-6 col-lg-6">
+				<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+			</div>
+			<div class="info-block col-sm-6 col-md-6 col-lg-6">
+				<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+			</div>
+		</div>
+		
+{% endfor %}
+
+<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
+

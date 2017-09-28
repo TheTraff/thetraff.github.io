@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	<div class='full-screen col-sm-12 col-md-12 col-lg-12'>
+		{% include header.html %}
+		<div class="main-page col-sm-12 col-md-12 col-lg-12">
+      		{{ content }}
+		</div>
+		
+		{% include footer.html %}
+	</div>
+
+</body>
+
+</html>
+<script type="text/javascript">
+	var colorOptions = [
+			"link-hover-blue",
+			"link-hover-green",
+			"link-hover-red",
+			"link-hover-yellow",
+			];
+	var bgColor;
+	$('a').hover(function() {
+		bgColor = colorOptions[Math.floor(Math.random()*colorOptions.length)];
+		$(this).addClass(bgColor);
+	},
+	function() {
+		$(this).removeClass(bgColor);
+
+	})
+</script>

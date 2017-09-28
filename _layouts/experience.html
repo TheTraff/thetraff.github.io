@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+    {% for experience in site.data.experiences %}
+     <div class="row">
+       
+            <div class="col-sm-6 col-md-6 col-lg-6 image-info-block">            
+                <div class="image-container">
+                 <!--<span class="helper"></span>-->
+                 <img src=../{{ experience.image }}>
+                </div>
+            </div>
+            <div class="col-sm-6 info-block">
+                <h2><a href={{experience.link}}> {{ experience.name }}</a></h2><p> {{ experience.date }}</p>
+                <p> {{ experience.description }}</p>
+            </div>
+        
+    </div>
+    {% endfor %}
+ 

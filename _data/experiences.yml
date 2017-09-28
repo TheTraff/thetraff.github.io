@@ -1,0 +1,13 @@
+- name: Software Engineering Intern - TicketBiscuit
+  description: Worked with another intern to design and develop a dynamic image resizing API that is used on print-at-home ticket layouts. 
+               The project replaced an old in-house web server in order to save money and update the architecture. 
+               The project utilized an AWS lambda function, API gateway, and a Cloudfront distribution to implement a serverless architecture.
+  date: May - August 2017
+  image: TBlogo.jpg
+  link: https://www.ticketbiscuit.com/
+
+- name: Wholegrain Tweets
+  description: Created at CrimsonHacks 2017. Users can sign up to recieve 
+  date: March 2017
+  image: wholegrain.jpg
+  link: https://github.com/nathanglover/encourage-bot

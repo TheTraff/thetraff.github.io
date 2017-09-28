@@ -1,0 +1,15 @@
+# Site Settings
+title: Ben Traffanstedt
+email: benTraffanstedt@gmail.com
+description: >
+    Personal website to show off my talents and projects
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: theTraff
+github_username:  theTraff
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
