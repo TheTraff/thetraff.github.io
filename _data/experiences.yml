@@ -7,7 +7,10 @@
   link: https://www.ticketbiscuit.com/
 
 - name: Wholegrain Tweets
-  description: Created at CrimsonHacks 2017. Users can sign up to recieve 
+  description: Created at CrimsonHacks 2017. Users can sign up to recieve encouraging and wholesome tweets on a regular basis.
+               The bot was created in python using the tweepy Twitter API, while the web pages was created and designed using Django, with
+               the database being PostgreSQL.
   date: March 2017
   image: wholegrain.jpg
   link: https://github.com/nathanglover/encourage-bot
+
