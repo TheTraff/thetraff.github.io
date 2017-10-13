@@ -6,7 +6,7 @@
  html {
     font-family: $font-style;
     font-color: $font-color;
-    font-size: 2vmin;
+    font-size: 1.2vmax;
     background-color: $site-background-color;
     width: 100%;
     height: 100vh;
@@ -43,8 +43,8 @@
 
 .content-body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
   justify-content: center;
   background-color: $experience-background-color;
 }
@@ -79,6 +79,8 @@ div {
     margin: auto;
     min-width: 100%;
     margin-top: 20px;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 .resume-block {
@@ -97,6 +99,10 @@ div {
      border-radius: 90%;
  }
 
+ .profile-image {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
  .image-container {
     margin: auto;
     //padding: 1%;
@@ -105,7 +111,7 @@ div {
     white-space: nowrap;
     display: inline-block;
     //vertical-align: middle;
-    //justify-content: center;
+    justify-content: center;
     min-width: 100%;
 
     /*
@@ -187,7 +193,7 @@ header a:focus, header a:hover {
         }
         .name-section {
             content-align: left;
-            font-size: 2vmin;
+            font-size: 1.4vmax;
             margin: 0;
             h2 {
                 display: inline;
@@ -195,7 +201,7 @@ header a:focus, header a:hover {
             }
         }
         .right-header-section {
-            font-size: 2.5vmin;
+            font-size: 1.5vmax;
             text-align: right;
             float: right;
             ul {
