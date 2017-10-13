@@ -76,11 +76,14 @@ div {
 
 .info-block {
     text-justify: center;
+    justify-content: center;
     margin: auto;
-    min-width: 100%;
+    min-width: 50vw;
     margin-top: 20px;
-    padding-left: 50%;
-    padding-right: 50%;
+
+    img {
+      width: 100%;
+    }
 }
 
 .resume-block {
@@ -108,27 +111,17 @@ div {
  .image-container {
     margin: auto;
     //padding: 1%;
-    position: relative;
+    //position: relative;
     overflow: hidden;
     white-space: nowrap;
-    display: inline-block;
-    //vertical-align: middle;
     justify-content: center;
     min-width: 100%;
-
-    /*
-    .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    }
-    */
 
     img {
     //float: center;
     //display: inline-block;
     vertical-align: middle;
-    margin: auto;
+    //margin: auto;
     max-height: 100%;
     max-width: 100%;
 
